@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!--css file-->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+  </head>
+  <body>
+    <!--header section-->
+    <header>
+      <div class="header">
+        <div class="nav-bar">
+          <div class="logo">Babli&nbsp;Choudhary</div>
+          <div class="nav-links" id="custom_nav">
+            <ul>
+              <li><a href="#first">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#services">Services1</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#contacts">Contact</a></li>
+            </ul>
+          </div>
+          <button class="cv">
+            <a href="/files/Babli_Resume.pdf">Download CV</a>
+          </button>
+          <div class="toggle-container">
+            <input type="checkbox" id="toggle" class="toggle-checkbox" />
+            <label for="toggle" class="toggle-label">
+              <div class="sun"></div>
+              <div class="moon"></div>
+            </label>
+          </div>
+
+          <img
+            src="/img/hamburger.png"
+            style="height: 50px; width: 50px; cursor: pointer"
+            alt="toggle Icon"
+            onclick="myFunction();"
+          />
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="first" id="first">
+        <div class="leftSection">
+            <div class="details">
+          <p>Hi,</p>
+          <p>
+            My name is <span style="color: rgb(90, 239, 152)">Babli</span>,
+          </p>
+          </div>
+          
+         <p style="font-size: 20px; color:rgb(235, 68, 132)">I am a Full Stack Developer</p>
+        
+          <div class="social-icon">
+            <ul>
+                <li><a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook showicontext " ></i><p class="hide">Facebook</p></a></li>
+                <li><a href="https://linkrdin.com" target="_blank"><i class="fa-brands fa-linkedin showicontext"></i><p class="hide">Linkedin</p></a></li>
+                <li><a href="https://github.com" target="_blank"><i class="fa-brands fa-github showicontext"></i><p class="hide">Github</p></a></li>
+                <li><a href="https://whatsapp.com" target="_blank"><i class="fa-brands fa-whatsapp showicontext"></i><p class="hide">Whatsapp</p></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="rightSection">
+         
+          <img src="/img/mainImg.jpg"  />
+        </div>
+       </section>
+       <section class="about" id ="about">
+       
+        <div class="about-left">
+         <img src="/img/img2.jpg" >
+        </div>
+        <div class="about-details">
+            <h1>About Me</h1>
+            <h4 style="color:bisque; ">Passionate Softwate Developer and Code Lover</h4>
+           
+            <div class="about-right">
+              <input id="read1" type="checkbox">
+            <p>Hi! I am Babli, a Full stack developer and coding is my passion. As a Full Stack Developer , I have good command in both front-end and back-end. I have good knowladge of languages like : HTMl, CSS, JavaScript,React,Node Js and some more programming languages.
+              <div class="content">
+            <p> I am detail-oriented, analytical, and self-driven programmer with extensive experience building user-facing applications. Efficient and knowledgeable coder with skills in HTML, CSS, and JavaScript programming languages. Coordinated and collaborative team player with attention to detail, graphic design skills, and ability to contribute to code base improvement initiatives and UX improvement projects.</p>
+            <label for="read1"class="lb1">Show Less</label>
+          </div>
+            <label for="read1" class="lb1">Read more</label>
+          </div>
+       
+        </div>
+
+       </section>
+       <section class="skills" id="skills">
+       
+        <div class="myskills">
+          <h1>My Skills</h1>
+          <li><h3>Html</h3>
+           <span class="bar"><span class="html"></span></span>
+          </li>
+          <li><h3>Css</h3>
+            <span class="bar"><span class="css"></span></span>
+          </li>
+          <li><h3>JavaScript</h3>
+            <span class="bar"><span class="js"></span></span>
+          </li>
+          <li><h3>React JS</h3>
+            <span class="bar"><span class="react"></span></span>
+          </li>
+          <li><h3>Node JS</h3>
+            <span class="bar"><span class="node"></span></span>
+          </li>
+        </div>
+      </section>
+      <section  class="certificates" >
+        <h1>Certificates</h1>
+
+        <div class="certificates-grid">
+          <div class="cards">
+            <img src="/img/backdrop.jpeg">
+           <div class="certificates-card">
+            <img src="/img/Education.png">
+            <h3>Master of Computer Application</h3>
+            <p> It is a postgraduate degree program in computer science and applications. MCA focuses on advanced concepts in computer science, software development, computer networks, database management, and information systems.
+            </p>
+            <button ><a href="/files/MCA degree .pdf">view certificates</a></button>
+
+           </div>
+          </div>
+          <div class="cards">
+            <img src="/img/backdrop.jpeg">
+        <div class="certificates-card">
+          
+            <img src="/img/Education.png">
+           
+            <h3>Bachelor of Computer Application</h3>
+            <p>Bachelor of Computer Application is three-year undergraduate degree programme provides a strong foundation in computer applications. It's a three-year undergraduate program designed to equip students with the knowledge and skills to develop and implement computer software application</p>
+            <button><a href="/files/Bca degree .pdf">view certificates</a></button>
+
+          </div>
+          </div>
+          <div class="cards">
+            <img src="/img/backdrop.jpeg">
+       <div class="certificates-card">
+            
+            <img src="/img/Education.png">
+            <h3>React</h3>
+            <p>React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript.</p>
+            <button><a href="/files/react.pdf">view certificates</a></button>
+
+          </div>
+        </div>
+        <div class="cards">
+          <img src="/img/backdrop.jpeg">
+          <div class="certificates-card">
+            
+            <img src="/img/Education.png">
+            <h3>Full Stack Development "Let's Begin"</h3>
+            <p>This course contains overview of Full Stack Development Course .</p>
+            <button><a href="/files/begin.pdf">view certificates</a></button>
+
+          </div>
+        </div>
+      </div>
+
+
+       
+      </section>
+      <section class="services" id="services1">
+        <h1>services</h1>
+        <div class="services-box">
+          <div class="services-card">
+           <i class="fa-brands fa-react"></i>
+           <div class="service-info">
+            <h3>Web Development</h3>
+            <p>Web development is the process of building, programming, and maintaining websites and web applications. Website developers use various programming languages, like HTML, CSS, and JavaScript, to develop websites and web applications.</p>
+           </div>
+
+          </div>
+          <div class="services-card">
+            <i class="fa-solid fa-pen-fancy"></i>
+            <div class="service-info">
+              <h3>Web Design</h3>
+              <p>Web designing is the process of planning, conceptualizing, and implementing the plan for designing a website in a way that is functional and offers a good user experience.</p>
+            </div>
+
+          </div>
+          <div class="services-card">
+          <i class="fa-solid fa-rocket"></i>
+          <div class="service-info">
+            <h3>Content Design</h3>
+            <p>
+              Content design is a customer-centric approach to solving problems by providing your audience with the information they need, when they need it. 
+            </p>
+          </div>
+
+          </div>
+
+        </div>
+      </section>
+<section class="project" id="projects">
+  <h1>Projects</h1>
+ <div class="project-item">
+  <div class="project-card">
+    <img src="/img/PROJECT1.png">
+    <div class="project-info">
+      <h3>Html Project</h3>
+      <p>It is a Blogging website.This project is made by using html and simple css.</p>
+      <p><b>Language Used: HTML & CSS</b></p>
+    </div>
+  </div>
+  <div class="project-card">
+    <img src="/img/PROJECT2.png">
+    <div class="project-info">
+      <h3>CSS Project</h3>
+      <p>It is a Education information website.This project is made by using html and Advanced css.</p>
+      <p><b>Language Used: HTML & CSS</b></p>
+    </div>
+   </div>
+  <div class="project-card">
+    <img src="/img/PROJECT 3.png">
+    <div class="project-info">
+      <h3>JS Project</h3>
+      <p>It is a Spotify Clone website.This project is made by using html Advanced css and javascript.</p>
+      <p><b>Language Used: HTML , CSS , JS</b></p>
+    </div>
+  </div>
+  
+  <div class="project-card">
+    <img src="/img/PROJECT4.png">
+    <div class="project-info">
+      <h3>Portfolio Project</h3>
+      <p>It is a personal portfolio website.This project is made by using html Advanced css and javascript.</p>
+      <p><b>Language Used: HTML , CSS , JS</b></p>
+    </div>
+  </div>
+  <div class="project-card">
+    <img src="/img/PROJECT 3.png">
+    <div class="project-info">
+      <h3>JS Project</h3>
+      <p>It is a Spotify Clone website.This project is made by using html Advanced css and javascript.</p>
+      <p><b>Language Used: HTML , CSS , JS</b></p>
+    </div>
+  </div>
+  <div class="project-card">
+    <img src="/img/PROJECT 3.png">
+    <div class="project-info">
+      <h3>JS Project</h3>
+      <p>It is a Spotify Clone website.This project is made by using html Advanced css and javascript.</p>
+      <p><b>Language Used: HTML , CSS , JS</b></p>
+    </div>
+  </div>
+</div>
+</section>
+<section class="contactUs" id="contacts">
+  <h1>Contact US</h1>
+  <div class="contact">
+    <form>
+    
+      <input type="text" id="firstName" placeholder="First Name" required>
+      <input type="text" class="lastName" placeholder="Last Name" >
+      <input type="email" id="email" placeholder="Email" required>
+      <input type="text" class="mobile" placeholder="mobile" required>
+      <h4> Type Your Message Here...</h4>
+      <textarea required class="textarea"></textarea>
+     <button>Submit</button>
+    </form>
+  </div>
+</section>
+    </main>
+    <footer class="footer">
+      <div>
+        <p>All Rights Reserved &copy;Babli's Portfolio |2024</p>
+     
+       <ul>
+          <li>
+            <a href="https://web.whatsapp.com">
+              
+                <img  src="/img/phone.png" >
+                &nbsp;9667643658
+              </div>
+            </a>
+          </li>
+            <li>
+              
+               <a href="https://gmail.com" >
+              
+                <img src="/img/gmail.jpg" class="icon2">
+                &nbsp;bablichoudhary1127@gmail.com
+              </a>
+
+            </li>
+      </ul>
+      
+      </div>
+    </footer>
+    <script>
+      function myFunction() {
+        var element = document.getElementById("custom_nav");
+        console.log(element);
+        
+        element.classList.toggle("ShowHeader");
+      }
+    </script>
+  </body>
+</html>

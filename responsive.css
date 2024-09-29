@@ -1,0 +1,148 @@
+
+/* for desktop*/
+@media (max-width: 900px) {
+  .header img {
+    display: flex;
+  }
+
+  .nav-links ul li {
+    display: block;
+    margin: 0;
+  }
+  .nav-links {
+    display: none;
+  }
+  .nav-links.ShowHeader {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+    top: 92px;
+    z-index: 100;
+    transition: 0.5s;
+  }
+  .first {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+  }
+  .about {
+    width: 50vw;
+  }
+}
+/*for ipad mini*/
+@media (max-width: 768px) {
+  .nav-bar {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+  }
+  .nav-links.ShowHeader {
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: #000;
+    top: 200px;
+    transition: 0.5s;
+  }
+
+  .cv {
+    margin-top: 10px;
+  }
+  .toggle-container {
+    margin-top: 10px;
+  }
+  .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .details {
+    font-size: 2rem;
+  }
+  .rightSection {
+    margin-top: 30px;
+  }
+  .rightSection img {
+    width: 200px;
+    height: 300px;
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  h1 {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 16px;
+  }
+
+  .certificates-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .cards{
+    height: auto;
+  }
+
+  .services .services-box{
+      
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+  .project{
+    margin-top: 5%;
+  }
+  .project-item{
+      
+    display: grid;
+    grid-template-columns: 1fr;
+
+  }
+  .project-card{
+    margin-top: 2%;
+  }
+
+.contact form {
+  margin-top: 40px;
+}
+  .contact form input{
+    width: 100px;
+
+}
+.contact form input::placeholder{
+    color:#ddd;
+  
+}
+.contact form .lastName,
+.contact form .mobile{
+  margin-left: 0;
+   
+}
+
+.contact form .textarea{
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5%;
+  
+    min-width: 100px;
+    max-width: 100px;
+    min-height: 80px;
+    max-height: 80px;
+}
+
+ .contact form button{
+    margin-top: 10px;
+    width: 70px;
+    margin-right: 20px;
+
+ }
+}
